@@ -1,4 +1,13 @@
-# A Parallel Mandelbrot Set Plotter
+# Mandelbrot
+
+A worthwhile example
+```
+cargo run  mandel.png 2048x1024 -1.2,-.8 -.1,.2
+```
+
+![](mandel.png  "Mandelbrot example")
+
+## A Parallel Mandelbrot Set Plotter
 
 This program plots the Mandelbrot set and writes it out as a PNG file. It uses Rust's concurrency primitives to distribute the work across eight threads.
 

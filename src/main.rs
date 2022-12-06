@@ -152,6 +152,8 @@ fn write_image(filename: &str, pixels: &[u8], bounds: (usize, usize))
 use std::env;
 
 fn main() {
+    //env::set_var("RUST_BACKTRACE", "1");
+
     let args: Vec<String> = env::args().collect();
 
     if args.len() != 5 {
